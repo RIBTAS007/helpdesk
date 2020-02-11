@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="UTF-8">
+     <title>IWS FAQ</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+     <link rel="stylesheet" href="css/styleFAQ.css">
+   </head>
+
+   <body>
+       <font face ="Times New Roman">
+ 
+         <!--navigation bar-->
+		 
+         <nav class="navbar">
+             <div class="container-fluid " >
+
+                 <!-- Logo -->
+				 
+                 <div class="navbar-header">
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                         <span class="icon-bar" ></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                     </button>
+                     <div id="heads">
+                         <a href="index.html" class="navbar-brand "> <img class=" logos " src="logo1.png"alt="logo"></a>
+                         <a href="index.html" class="navbar-brand pad1">    
+                         <h3><b>INNOVATIVE</h3>
+                         <p><h4><b> Web Solutions</h4></p></a>
+                     </div>
+                 </div>
+
+                 <!-- Menu Items -->
+        
+		         <div class="collapse navbar-collapse" id="mainNavBar">
+                     <ul class="nav navbar-nav navbar-right ">
+                         <li class="" data-toggle="collapse" data-target=".navbar-collapse.in"><a href="index.html"  ><span class="glyphicon glyphicon-home"></span> <b>Home</b></a></li>
+                         <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="about.html"><b><span class="glyphicon glyphicon-info-sign"></span> About</b></a></li>
+                         <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#"><span class="glyphicon  glyphicon-question-sign"></span><b> FAQ</b></a></li>
+                         <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="comp.php"><span class="glyphicon glyphicon-list-alt"></span> <b>Complaints</b></a></li>
+                         <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#cncl" onclick="myFunction()"><span class="glyphicon glyphicon-earphone"></span> <b>Contact</b></a></li>
+                         <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="adminlogin.php"><span class="glyphicon glyphicon-user"></span> <b>Admin</b></a></li>
+                     </ul>
+                 </div>
+
+               </div>
+           </nav>
+        </font>
+ 
+        <!--heading-->
+		
+	    <font face="Times New Roman" color="#7822a5"  >
+		     <div class="cen">
+                 <div class="headm">
+                     FAQ's 
+                 </div>
+		     </div>
+       </font> 
+       <hr>
+  
+       <!--Question And Answer-->	
+	
+       <div class="qbuts">
+         <font  face="Times New Roman">
+  
+             <button id="btn1" onclick="button1()" type="button" class="btn btn-info btn-block ">
+			     How long will it take for my request to get proccessed?
+			 </button><br>
+    
+             <p id="p1">
+                  It may take a maximum of one week for your problem to be completely solved. M1eanwhile, our technical staff will contact you on the second day of you lodging your problem.
+             </p>
+    
+             <button id="btn2" type="button" onclick="button2()" class="btn btn-info btn-block">
+                 How do I contact the Helpdesk?
+             </button> <br>          
+   
+             <div id="p2"> 
+			     <p>You may call us directly on our toll-free number 1800 1200 6000 0000 or mail us on technical.query@live.in</p>
+			 </div>
+    
+             <button id="btn3" type="button" onclick="button3()"class="btn btn-info btn-block">
+			      Should I call before bringing in my laptop? 
+		     </button> <br> 
+  
+             <div id="p3"> 
+			     <p>Yes, you should call (615)343-HELP to verify that you need to bring in your laptop and arrange a time during walk-in hours. NOTE:YOU CAN ALSO DROP OFF YOUR LAPTOP.</p>
+			 </div> 	
+
+             <button id="btn4" type="button" onclick="button4()"class="btn btn-info btn-block">
+			     Whom do I contact if I want to check the status of work orders?
+		     </button> <br>
+  
+             <div id="p4">
+       			 <p>Call the customer service representatives at 8658092625, 7204499694, 8867768168</p> 
+			 </div> 
+ 
+             <button id="btn5" type="button" onclick="button5()"class="btn btn-info btn-block">
+			     What services does it offer?
+		     </button><br>
+   
+             <div id="p5"> 
+                 It offers the following services:-
+                 <br>
+                 1.network trouble shooting and configuration
+                 <br>
+                 2.Basic hardware troubleshooting
+                 <br>
+                 3.Computer preformance issues
+                 <br>
+                 4.Virus scan and malware detection
+                 <br>
+             </div> 
+		 </font>
+     </div>
+ 
+     <font face ="Times New Roman">
+	 
+         <!--CONTACT DETAILS -->
+
+		 <div class="conblock" >
+ 
+             <button id="cncl" onclick="cancelbtn()"style="float:right;">
+                 <i class="fa fa-times" aria-hidden="true"></i>
+             </button>
+  
+             <h2 id="C" style="color:#30d5f2;"class=" fontu">
+                 <b>ContactUs</b><hr>
+             </h2>
+   
+             <h5><b>
+                 <p> Want to get in touch with us?</p>
+                 <div class="center">
+                     <p class="g">Email Us :- <em >abc@gmail.com</em></p>
+                     <p class="g"> Contact Us :-<em >9658968895</em></p>
+                     <p class="g">Address:-<em > Friends colony,Jamshedpur-831007</em></p>
+                 </div>
+                 <p>For further queries visit our<a href="index.html" style="color:#30d5f2;"><em><u> FAQ Page</em></u></a></p>
+              </b></h5> 
+      
+             <h4 style="color:#30d5f2;">
+                 <b>We promise to reply A.S.A.P.</b>
+             </h4>
+
+         </div>
+         
+		 <!--FOOTER -->
+		    
+		 <div style=" position:relative; right: 0; bottom: 0; left: 0; padding: 1rem;  text-align: center; color:#7822a5; font-size:20px;">
+             <b> &copy; 2017 INNOVATIVE WEB SOLUTIONS</b>
+         </div>
+			
+         <script src="js/indexFAQ.js"></script>
+		 
+     </font>
+  </body>
+</html>

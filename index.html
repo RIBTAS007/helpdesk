@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>IWS Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    <!--[if lt IE 9]>
+		<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <link rel="stylesheet" href="css/styleHome.css">
+  </head>
+
+  <body>
+    <font face ="Times New Roman">
+      
+	  <!--navigation bar-->
+	  
+      <nav class="navbar ">
+        <div class="container-fluid " >
+
+          <!-- Logo -->
+		
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                <span class="icon-bar" ></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div id="heads">
+                <a href="#" class="navbar-brand "> <img class=" logos " src="logo1.png"alt="logo"></a>
+                <a href="#" class="navbar-brand pad1">    
+                <h3><b>INNOVATIVE</h3>
+                <p><h4><b> Web Solutions</h4></p></a>
+            </div>
+          </div>
+
+          <!-- Menu Items -->
+		
+          <div class="collapse navbar-collapse" id="mainNavBar">
+            <ul class="nav navbar-nav navbar-right ">
+              <li class="" data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#"  ><span class="glyphicon glyphicon-home"></span> <b>Home</b></a></li>
+              <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="about.html"><b><span class="glyphicon glyphicon-info-sign"></span> About</b></a></li>
+              <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="FAQ.html"><span class="glyphicon  glyphicon-question-sign"></span><b> FAQ</b></a></li>
+              <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="comp.php"><span class="glyphicon glyphicon-list-alt"></span> <b>Complaints</b></a></li>
+              <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#cncl" onclick="myFunction()"><span class="glyphicon glyphicon-earphone"></span> <b>Contact</b></a></li>
+              <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="adminlogin.php"><span class="glyphicon glyphicon-user"></span> <b>Admin</b></a></li>
+		      <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="credit2.html"><span class="glyphicon glyphicon-user"></span> <b>Credits</b></a></li>
+            </ul>
+          </div>
+
+        </div>
+       </nav>
+
+       <!-- ========  Slider ========-->
+	   
+       <div class="sl">
+          <div class="container-fluid">
+	          <section id="slider" class="container">
+		            <ul class="slider-wrapper" >
+                        
+						<li class="current-slide">
+			               <img style="width:100%; height:100%;" src="http://www.www8-hp.com/in/en/images/i_workstations_01_big_image_tcm188_2192440_tcm188_2193389_tcm188-2192440.jpg" title="" alt="image0">
+                           <div class="caption">
+				              <h2 class="slider-title">Slim</h2>
+			                  <p>Our laptops are one of the slimmest laptops of the era</p>
+                           </div>
+		                </li>
+
+		                <li>
+                           <img  style="width:100%; height:100%;"src="https://www.laptopmag.com/images/wp/purch-api/incontent/2014/05/HP-ENVY-x360_Stand.jpg" title="" alt="image1">
+                           <div class="caption">
+				              <h2 class="slider-title">Rotatable</h2>
+                              <p>Our laptops can be rotated upto 270 deg</p>
+			               </div>
+		                </li>
+
+	                    <li>
+                           <img style="width:100%; height:100%;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Gq7X_h23phUiwa30SqXTrq82VBtkjL4K38z1-eg1nZkPeEjF" title="" alt="image2">
+                           <div class="caption">
+				              <h2 class="slider-title">Economical</h2>
+				              <p>We provide more features at reasonable cost</p>
+			               </div>
+		                </li>
+
+		                <li>
+                           <img style="width:100%; height:100%;"src="http://wallpapercave.com/wp/DtujFIq.jpg" title="" alt="image3">
+                           <div class="caption">
+				              <h2 class="slider-title">Design</h2>
+				              <p>our laptops are innovatively designed to look good. </p>
+			               </div>
+		                </li>
+        
+	                </ul>
+		
+                    <!-- Controls for Navigation -->
+					
+		            <ul id="control-buttons" class="control-buttons"><!--The buttons function are written in JS Section--></ul>
+	           </section>
+            </div>
+        </div>
+	
+        <!--========AboutUs======-->
+		
+        <div class="container-fluid">
+           <h1 id="aboutheading" style="color:#7822a5;">About Us</h1><hr>
+           <h3>We offer first class, cost effective turn-key IT solutions and support services. Our main focus is on being a preferred supplier primarily.We have significant expertise in Dot Net, IOS, Android and integration solutions. We typically work with our clients for <a href="about.html">read more...</a></h3>
+           <br><br>
+        </div>
+		
+        <!--CONTACT DETAILS -->
+		
+        <div class="conblock" >
+ 
+           <button id="cncl" onclick="cancelbtn()"style="float:right;">
+               <i class="fa fa-times" aria-hidden="true"></i>
+           </button>
+  
+           <h2 id="C" style="color:#30d5f2;"class=" fontu">
+              <b>ContactUs</b><hr>
+           </h2>
+   
+           <h5><b>
+               <p> Want to get in touch with us?</p>
+               <div class="center">
+                  <p class="g">Email Us :- <em >abc@gmail.com</em></p>
+                  <p class="g"> Contact Us :-<em >9658968895</em></p>
+                  <p class="g">Address:-<em > Friends colony,Jamshedpur-831007</em></p>
+               </div>
+               <p>For further queries visit our<a href="FAQ.html" style="color:#30d5f2;"><em><u> FAQ Page</em></u></a></p>
+           </b></h5> 
+      
+           <h4 style="color:#30d5f2;">
+               <b>We promise to reply A.S.A.P.</b>
+           </h4>
+
+        </div>
+  
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+        <script src="js/index1.js"></script>
+		
+		<!--FOOTER -->
+		
+		 <div style=" right: 0; bottom: 0; left: 0; padding: 1rem;  text-align: center; color:#7822a5; font-size:20px;">
+             <b> &copy; 2017 INNOVATIVE WEB SOLUTIONS</b>
+         </div>
+		
+    </font>
+  </body>
+</html>
